@@ -9,7 +9,11 @@ alias btcnd="bitcoind"
  - private key: `cRwpATNz6SvgTg978o5o3iPipXHwiNiHg4E4uEwEWM2zXY6VVSfD`
 
 ## useful commands:
-- btc -getinfo // returns version, nbr of blocks, sync status
-- btcnd -daemon // running bitcoin node in the background
+- `btc getblockchaininfo` returns complex status update about bitcoin node
+- `btc -getinfo`  returns version, nbr of blocks, sync status
+- `btcnd -daemon` to run bitcoin node in the background
+- `btc getnetworkinfo` returns status about btc network
+- `btc getblockhash <number of block>` returns block hash to given block number
+- `btc getblock "<block hash>"` returns content of the block - tx, metadata
 
 
