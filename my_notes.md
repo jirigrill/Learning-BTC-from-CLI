@@ -21,4 +21,5 @@
 - `btc dumpprivkey <public wallet address>` returns private key for given addres
 - `btc sendtoaddress <public address> <amount>` sens the given amount to the given address; it returns id of tx
 - `btc listunspent` lists out all Unspent Transaction Outputs (UTXO)
+- `btc listtransactions` lists all txs
 
