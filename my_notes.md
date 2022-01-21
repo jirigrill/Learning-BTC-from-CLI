@@ -5,7 +5,6 @@
 - `alias btcnd="bitcoind"`
 
 ## btc wallet:
- - legacy address on testnet: `mwthLvi9m1bVYuBabN6P5ufcjCjngY9Mjp`
  - private key: `cRwpATNz6SvgTg978o5o3iPipXHwiNiHg4E4uEwEWM2zXY6VVSfD`
 
 ## useful commands:
@@ -22,4 +21,11 @@
 - `btc sendtoaddress <public address> <amount>` sens the given amount to the given address; it returns id of tx
 - `btc listunspent` lists out all Unspent Transaction Outputs (UTXO)
 - `btc listtransactions` lists all txs
+
+## websites to get tesnet BTCs
+- https://testnet-faucet.mempool.co/ - get 0.001 per request/hour
+- https://bitcoinfaucet.uo1.net/ 
+- https://coinfaucet.eu/en/btc-testnet/
+
+
 
